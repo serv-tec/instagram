@@ -1,0 +1,51 @@
+{
+    "name": "serv-tec\/instagram",
+    "type": "library",
+    "description": "An easy-to-use PHP Class for accessing Instagram's API.",
+    "keywords": [
+        "instagram",
+        "api"
+    ],
+    "homepage": "https:\/\/github.com\/cosenary\/Instagram-PHP-API",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Christian Metz",
+            "email": "christian-metz1@gmx.net",
+            "homepage": "http:\/\/metzweb.net"
+        },
+        {
+            "name": "serv-tec",
+            "homepage": "https:\/\/github.com\/serv-tec",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MetzWeb\\Instagram\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.4-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "old": {
+        "owner": "cosenary",
+        "name": "instagram"
+    },
+    "support": {
+        "issues": "https:\/\/github.com\/serv-tec\/Instagram\/issues",
+        "wiki": "https:\/\/github.com\/serv-tec\/Instagram\/wiki",
+        "source": "https:\/\/github.com\/serv-tec\/Instagram"
+    },
+    "replace": {
+        "cosenary\/instagram": "*"
+    }
+}
